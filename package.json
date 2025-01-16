@@ -1,0 +1,84 @@
+{
+  "name": "programming-english-naming",
+  "displayName": "编程命名翻译助手",
+  "description": "programming English Name",
+  "version": "0.0.1",
+  "publisher": "lingqiangkong",
+  "author": {
+    "name": "lingqiang.kong"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Snippets"
+  ],
+  "icon": "resources/tlogo.png",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "programming-english-naming.helloWorld",
+        "title": "Hello World"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "translation-explorer",
+          "title": "翻译助手",
+          "icon": "resources/translate.svg"
+        }
+      ]
+    },
+    "views": {
+      "translation-explorer": [
+        {
+          "id": "translationView",
+          "name": "翻译视图",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "翻译助手",
+      "properties": {
+        "translationHelper.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Silicon Flow API Key"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.93.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "galleryBanner": {
+    "color": "#615ced",
+    "theme": "dark"
+  }
+  
+}
