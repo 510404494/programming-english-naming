@@ -183,6 +183,7 @@ export class TranslationViewProvider implements vscode.WebviewViewProvider {
                         margin: 8px 0;
                         padding: 8px;
                         background-color: #f3f3f3;
+                        color:#000;
                         border-radius: 4px;
                     }
                     .result-label {

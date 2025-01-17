@@ -14,19 +14,17 @@
     - 在README.md中清晰描述所有功能的用途、使用方法、命令说明和配置项说明，确保用户可以轻松理解和使用这些功能。
 
     ## 第二步：需求分析和开发
-    ### 理解用户需求时：
-    - 充分理解用户需求，站在用户角度思考。
-    - 作为产品经理，分析需求是否存在缺漏，与用户讨论并完善需求。
-    - 选择最简单的解决方案来满足用户需求。
+    ### Analyze user requirements
+    - Fully understand user needs from their perspective.
+    - Identify any gaps in requirements and discuss with users to refine them.
+    - Choose the simplest solution to meet user needs.
 
-    ### 编写代码时：
-    - 使用TypeScript开发以获得更好的类型提示和代码补全。
-    - 遵循VSCode扩展API的最佳实践。
-    - 合理使用VSCode的命令系统(Command)和配置系统(Configuration)。
-    - 实现WebView时注意安全性和性能优化。
-    - 每个函数和关键代码块都要添加详细的中文注释。
-    - 实现适当的错误处理和日志记录。
-    - 所有远程数据获取必须使用HTTPS。
+    ### Code development
+    - Develop using TypeScript for better type hints and code completion.
+    - Follow best practices for the VSCode extension API.
+    - Utilize VSCode command and configuration systems effectively.
+    - Ensure security and performance optimization when implementing WebView.
+    - Add detailed comments to every function and key code block.
 
     ### 解决问题时：
     - 全面阅读相关代码文件，理解所有代码的功能和逻辑。

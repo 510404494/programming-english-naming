@@ -2,7 +2,7 @@
   "name": "programming-english-naming",
   "displayName": "编程命名翻译助手",
   "description": "programming English Name",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "lingqiangkong",
   "author": {
     "name": "lingqiang.kong"
@@ -68,13 +68,13 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.93.0",
-    "@types/mocha": "^10.0.10",
+    "@types/mocha": "^10.0.20",
     "@types/node": "^20.11.0",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
-    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-cli": "^0.0.20",
     "@vscode/test-electron": "^2.4.1"
   },
   "dependencies": {
